@@ -1,4 +1,4 @@
-import 'package:e_commerce/Screens/Cart.dart';
+import 'package:e_commerce/Screens/cart/cart_page.dart';
 import 'package:e_commerce/Screens/favorite.dart';
 import 'package:e_commerce/Screens/home.dart';
 import 'package:e_commerce/Screens/profile.dart';
