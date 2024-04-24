@@ -1,3 +1,4 @@
+import 'package:e_commerce/Screens/Home_page.dart';
 import 'package:e_commerce/Screens/cart/cart_page.dart';
 import 'package:e_commerce/Screens/favorite.dart';
 import 'package:e_commerce/Screens/home.dart';
@@ -13,7 +14,7 @@ class NavBarView extends StatelessWidget {
   NavBarView({super.key});
 
   final screens = [
-    const HomeScreen(),
+    HomePage(),
     const FavoriteScreen(),
     const CartScreen(),
     const ProfileScreen(),
@@ -45,7 +46,7 @@ class NavBarView extends StatelessWidget {
                   label: 'Favorite',
                   icon: Image.asset(
                     'assets/images/favorite.png',
-                    scale:3.5,
+                    scale: 3.5,
                   )),
               BottomNavigationBarItem(
                   label: 'Cart',
